@@ -26,7 +26,7 @@ app.get('/webhook', function(req, res) {
 app.post('/webhook', function (req, res) {
   console.log("Hello bot123");
   var data = req.body;
-
+	console.log(data);
 });
   
 function receivedMessage(event) {
